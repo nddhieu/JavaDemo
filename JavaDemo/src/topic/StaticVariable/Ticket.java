@@ -23,4 +23,8 @@ public class Ticket {
     public Integer getId() {
         return id;
     }
+
+    public static Integer getTotalTicket() {
+        return totalTicket;
+    }
 }

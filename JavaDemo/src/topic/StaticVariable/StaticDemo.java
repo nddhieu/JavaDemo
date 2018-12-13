@@ -9,10 +9,10 @@ public class StaticDemo {
     public static void main (String[] args){
         Ticket ticket1 = new Ticket("Foot ball", (double) 15);
         Ticket ticket2 = new Ticket("Soccer", (double) 20);
-        System.out.println(" ticket " + ticket1.getId() + " name and value" + ticket1.getEvent() + " "+ ticket1.getValue());
+        System.out.println(" ticket " + ticket1.getId() + " name " + ticket1.getEvent() + " and value $" + ticket1.getValue());
         System.out.println(" ticket " + ticket2.getId() + " name and value" + ticket2.getEvent() + " "+ ticket2.getValue());
-        System.out.println("total number of ticket get from class Ticket " + Ticket.totalTicket);
-        System.out.println("total number of ticket (get from ticket1 object): " + ticket1.totalTicket);
+        System.out.println("total number of ticket get from class Ticket " + Ticket.getTotalTicket());
+        System.out.println("total number of ticket (get from ticket1 object): " + ticket1.getTotalTicket());
         System.out.println("id of ticket1 cannot be access from class Ticket" );
     }
 }
