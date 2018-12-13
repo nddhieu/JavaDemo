@@ -12,6 +12,9 @@ public class Ticket {
         this.totalTicket = this.id;
     }
 
+    static {
+        System.out.println("written from Ticket class");
+    }
     public String getEvent() {
         return event;
     }
