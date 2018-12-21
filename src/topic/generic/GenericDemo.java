@@ -39,6 +39,6 @@ public class GenericDemo {
         strArrayGeneric.addElement("six");
         strArrayGeneric.addElement("seven");
         System.out.println("print String Array List using generic class");
-        intArrayGeneric.printArrayList( intArrayGeneric);
+        strArrayGeneric.printArrayList(strArrayGeneric);
     }
 }
